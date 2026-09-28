@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-labelledby="t2 d2">
+  <title id="t2">A Batalha da Mente</title>
+  <desc id="d2">Capa do livro A Batalha da Mente, de Marcelo Carvalho. Fundo escuro com arcos dourados concêntricos.</desc>
+  <defs>
+    <linearGradient id="c2bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#221C14"/>
+      <stop offset="1" stop-color="#100E0B"/>
+    </linearGradient>
+    <radialGradient id="c2glow" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#C6A15B" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#C6A15B" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c2clip"><rect x="0" y="0" width="600" height="900"/></clipPath>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#c2bg)"/>
+  <rect width="600" height="900" fill="url(#c2glow)"/>
+
+  <g clip-path="url(#c2clip)" fill="none" stroke="#C6A15B">
+    <circle cx="300" cy="392" r="72"  stroke-opacity="0.30" stroke-width="1"/>
+    <circle cx="300" cy="392" r="126" stroke-opacity="0.20" stroke-width="1"/>
+    <circle cx="300" cy="392" r="180" stroke-opacity="0.12" stroke-width="1"/>
+    <path d="M300 316 a76 76 0 0 1 0 152" stroke-opacity="0.7" stroke-width="1.5"/>
+    <path d="M300 368 a24 24 0 0 1 0 48" stroke-opacity="0.45" stroke-width="1.5"/>
+  </g>
+
+  <rect x="30" y="30" width="540" height="840" fill="none" stroke="#C6A15B" stroke-opacity="0.26" stroke-width="1"/>
+
+  <g font-family="Georgia, 'Liberation Serif', 'Times New Roman', serif" text-anchor="middle">
+    <text x="300" y="128" font-size="15" letter-spacing="7" fill="#8B7746" font-family="'Liberation Sans', Helvetica, Arial, sans-serif">LIVRO II</text>
+
+    <text x="300" y="384" font-size="64" letter-spacing="0.5" fill="#EDE7D8">A Batalha</text>
+    <text x="300" y="456" font-size="64" letter-spacing="0.5" fill="#EDE7D8">da Mente</text>
+
+    <line x1="216" y1="504" x2="384" y2="504" stroke="#C6A15B" stroke-opacity="0.6"/>
+
+    <text x="300" y="556" font-size="20" font-style="italic" fill="#C6A15B">Como seus pensamentos</text>
+    <text x="300" y="586" font-size="20" font-style="italic" fill="#C6A15B">moldam sua realidade —</text>
+    <text x="300" y="616" font-size="20" font-style="italic" fill="#C6A15B">e como assumir o controle</text>
+  </g>
+
+  <g text-anchor="middle">
+    <path d="M300 748 l7 7 -7 7 -7 -7 z" fill="#C6A15B" fill-opacity="0.75"/>
+    <text x="300" y="818" font-size="15" letter-spacing="5.5" fill="#A79E8B" font-family="'Liberation Sans', Helvetica, Arial, sans-serif">MARCELO CARVALHO</text>
+  </g>
+</svg>

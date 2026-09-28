@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/sitemap.xml

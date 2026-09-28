@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Marcelo Carvalho — Autor de O Limite do Invisível e A Batalha da Mente</title>
+<meta name="description" content="Escrevo sobre o vazio que a distração não preenche. Dois livros — O Limite do Invisível e A Batalha da Mente — disponíveis na Amazon.">
+<meta name="author" content="Marcelo Carvalho">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/">
+<meta name="theme-color" content="#16130F" id="metaThemeColor">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Marcelo Carvalho">
+<meta property="og:url" content="https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/">
+<meta property="og:title" content="Marcelo Carvalho — Autor">
+<meta property="og:description" content="Livros sobre o que permanece quando o ruído cessa. O Limite do Invisível e A Batalha da Mente, na Amazon.">
+<meta property="og:image" content="https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/imagens/author.jpg">
+<meta property="og:image:width" content="700">
+<meta property="og:image:height" content="1050">
+<meta property="og:image:alt" content="Retrato do autor Marcelo Carvalho em uma biblioteca">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="imagens/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="imagens/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Work+Sans:wght@400;500&display=swap">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/#autor",
+      "name": "Marcelo Carvalho",
+      "url": "https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/",
+      "email": "mailto:contato@marcelocarvalho.com.br",
+      "jobTitle": "Autor",
+      "description": "Autor de O Limite do Invisível e A Batalha da Mente."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/#site",
+      "url": "https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/",
+      "name": "Marcelo Carvalho — Autor",
+      "inLanguage": "pt-BR",
+      "publisher": { "@id": "https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/#autor" }
+    },
+    {
+      "@type": "Book",
+      "name": "O Limite do Invisível",
+      "alternateName": "Nada neste mundo consegue te completar",
+      "inLanguage": "pt-BR",
+      "author": { "@id": "https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/#autor" },
+      "bookFormat": "https://schema.org/EBook",
+      "url": "https://www.amazon.com.br/dp/B0H6J756DR",
+      "description": "O vazio que nenhuma tela consegue preencher e a verdade que existe além do visível."
+    },
+    {
+      "@type": "Book",
+      "name": "A Batalha da Mente",
+      "alternateName": "Como seus pensamentos moldam sua realidade",
+      "inLanguage": "pt-BR",
+      "author": { "@id": "https://arcatechsolucoes-cloud.github.io/marcelo-carvalho/#autor" },
+      "bookFormat": "https://schema.org/EBook",
+      "url": "https://www.amazon.com.br/dp/B0H57P7MCH",
+      "description": "Trocar ansiedade por clareza, ciclos destrutivos por foco e reação por decisão."
+    }
+  ]
+}
+</script>
+
+<script>
+(function () {
+  var r = document.documentElement;
+  r.classList.add('js');
+  var t;
+  try { t = localStorage.getItem('tema'); } catch (e) {}
+  if (t !== 'light' && t !== 'dark') {
+    t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  }
+  r.setAttribute('data-theme', t);
+})();
+</script>
+
+<style>
+  :root {
+    --bg: #16130F;
+    --bg-raised: #1D1912;
+    --ink: #EDE7D8;
+    --ink-dim: #A79E8B;
+    --gold: #C6A15B;
+    --gold-soft: #8B7746;
+    --on-gold: #16130F;
+    --line: rgba(198, 161, 91, 0.22);
+    --focus: #D9B876;
+    --nav-bg: rgba(22, 19, 15, 0.82);
+    --veil: linear-gradient(180deg, transparent 58%, rgba(22, 19, 15, 0.6) 100%);
+    --shadow: 0 22px 46px -30px rgba(0, 0, 0, 0.95);
+    --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --sans: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --nav-h: 108px;
+    color-scheme: dark;
+  }
+  :root[data-theme="light"] {
+    --bg: #F7F3EA;
+    --bg-raised: #FFFCF6;
+    --ink: #1C1811;
+    --ink-dim: #5E5647;
+    --gold: #8A6520;
+    --gold-soft: #7C6835;
+    --on-gold: #FBF7EF;
+    --line: rgba(70, 53, 20, 0.2);
+    --focus: #6F4E12;
+    --nav-bg: rgba(247, 243, 234, 0.85);
+    --veil: linear-gradient(180deg, transparent 58%, rgba(247, 243, 234, 0.75) 100%);
+    --shadow: 0 22px 46px -32px rgba(60, 45, 15, 0.6);
+    color-scheme: light;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--nav-h) + 20px);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color .25s ease, color .25s ease;
+    overflow-wrap: break-word;
+  }
+  img, svg { max-width: 100%; display: block; }
+  img { height: auto; }
+  a { color: inherit; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+
+  ::selection { background: var(--gold); color: var(--on-gold); }
+
+  :where(a, button):focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+
+  .sr-only {
+    position: absolute; width: 1px; height: 1px;
+    padding: 0; margin: -1px; overflow: hidden;
+    clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
+  }
+  .skip {
+    position: absolute; left: 14px; top: 8px; z-index: 100;
+    padding: 10px 18px; background: var(--gold); color: var(--on-gold);
+    text-decoration: none; border-radius: 2px; font-size: .9rem;
+    transform: translateY(-200%);
+  }
+  .skip:focus { transform: translateY(0); }
+
+  .js-only { display: none; }
+  .js .js-only { display: inline-flex; }
+
+  /* NAV */
+  .site-nav {
+    position: sticky; top: 0; z-index: 60;
+    padding-top: calc(14px + env(safe-area-inset-top, 0px));
+    padding-bottom: 14px;
+    background: var(--nav-bg);
+    -webkit-backdrop-filter: saturate(1.5) blur(10px);
+    backdrop-filter: saturate(1.5) blur(10px);
+    border-bottom: 1px solid transparent;
+    transition: border-color .25s ease, background-color .25s ease;
+  }
+  .site-nav.is-stuck { border-bottom-color: var(--line); }
+  .nav-row {
+    display: flex; flex-wrap: wrap; align-items: center;
+    justify-content: space-between; gap: 10px 18px;
+  }
+  .brand {
+    font-family: var(--serif); font-weight: 500;
+    font-size: 1.1rem; letter-spacing: .02em;
+    text-decoration: none; color: var(--ink);
+  }
+  .nav-right { display: flex; align-items: center; gap: 12px; order: 1; }
+  .theme-toggle {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 38px; height: 38px; padding: 0;
+    background: transparent; color: var(--ink-dim);
+    border: 1px solid var(--line); border-radius: 50%;
+    cursor: pointer; transition: color .2s, border-color .2s;
+  }
+  .theme-toggle:hover { color: var(--gold); border-color: var(--gold); }
+  .theme-toggle svg { width: 18px; height: 18px; }
+  .theme-toggle .i-moon { display: none; }
+  :root[data-theme="light"] .theme-toggle .i-moon { display: block; }
+  :root[data-theme="light"] .theme-toggle .i-sun { display: none; }
+
+  .navlinks {
+    order: 2; width: 100%;
+    display: flex; flex-wrap: wrap; gap: 10px 22px;
+    font-size: .82rem; letter-spacing: .01em;
+    margin: 0; padding: 0; list-style: none;
+  }
+  .navlinks a {
+    text-decoration: none; color: var(--ink-dim);
+    border-bottom: 1px solid transparent; padding-bottom: 3px;
+    transition: color .2s, border-color .2s;
+  }
+  .navlinks a:hover { color: var(--gold); border-color: var(--gold); }
+  @media (min-width: 760px) {
+    .navlinks { order: 1; width: auto; font-size: .88rem; gap: 30px; }
+    .nav-right { order: 2; }
+  }
+
+  /* HERO */
+  .hero { padding: 34px 0 88px; overflow: hidden; }
+  .hero .wrap {
+    display: grid; grid-template-columns: 1fr;
+    gap: 44px; align-items: center;
+  }
+  @media (min-width: 860px) {
+    .hero .wrap { grid-template-columns: 1.05fr 0.8fr; gap: 60px; }
+  }
+  .hero-text .kicker {
+    font-family: var(--serif); font-style: italic; font-weight: 400;
+    font-size: 1.05rem; color: var(--gold);
+    margin: 0 0 18px;
+  }
+  .hero-text h1 {
+    font-family: var(--serif); font-weight: 500;
+    font-size: clamp(2.3rem, 5.4vw, 3.6rem);
+    line-height: 1.08; margin: 0 0 24px; max-width: 14ch;
+  }
+  .hero-text p {
+    color: var(--ink-dim); font-size: 1.08rem;
+    max-width: 46ch; margin: 0 0 34px;
+  }
+  .cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 13px 26px; border-radius: 2px;
+    font: inherit; font-size: .92rem; text-decoration: none;
+    border: 1px solid var(--gold);
+    transition: background-color .2s, color .2s, border-color .2s;
+  }
+  .btn-solid { background: var(--gold); color: var(--on-gold); font-weight: 500; }
+  .btn-solid:hover { background: var(--focus); border-color: var(--focus); }
+  .btn-line { color: var(--ink); background: transparent; }
+  .btn-line:hover { border-color: var(--ink); }
+
+  .hero-photo { position: relative; border: 1px solid var(--line); box-shadow: var(--shadow); }
+  .hero-photo img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; filter: saturate(.92) contrast(1.03); }
+  .hero-photo::after {
+    content: ""; position: absolute; inset: 0;
+    background: var(--veil); pointer-events: none;
+  }
+
+  section { padding: 76px 0; }
+  .rule { border: none; border-top: 1px solid var(--line); margin: 0; }
+
+  h2.section-title {
+    font-family: var(--serif); font-weight: 500;
+    font-size: clamp(1.7rem, 3.4vw, 2.3rem);
+    margin: 0 0 14px;
+  }
+  .section-lede { color: var(--ink-dim); max-width: 56ch; margin: 0 0 48px; font-size: 1.02rem; }
+
+  /* SOBRE */
+  .about .wrap { display: grid; grid-template-columns: 1fr; gap: 38px; }
+  @media (min-width: 780px) { .about .wrap { grid-template-columns: 0.62fr 1fr; gap: 64px; align-items: start; } }
+  .about-portrait { border: 1px solid var(--line); box-shadow: var(--shadow); }
+  .about-portrait img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; filter: saturate(.92) contrast(1.03); }
+  .about-copy p { color: var(--ink-dim); font-size: 1.03rem; max-width: 56ch; margin: 0 0 20px; }
+  .about-copy p:last-child { margin-bottom: 0; }
+  .about-copy strong { color: var(--ink); font-weight: 500; }
+  .signature { font-family: var(--serif); font-style: italic; color: var(--gold); font-size: 1.15rem; margin-top: 26px; }
+
+  /* LIVROS */
+  .book {
+    display: grid; grid-template-columns: 1fr; gap: 34px;
+    padding: 44px 0; align-items: center;
+  }
+  .book + .book { border-top: 1px solid var(--line); }
+  @media (min-width: 780px) {
+    .book { grid-template-columns: .42fr 1fr; gap: 64px; }
+    .book.reverse { grid-template-columns: 1fr .42fr; }
+    .book.reverse .book-cover { order: 2; }
+  }
+  .book-cover {
+    border: 1px solid var(--line); box-shadow: var(--shadow);
+    background: var(--bg-raised); max-width: 300px; width: 100%;
+  }
+  .book-cover img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
+  .book-copy .tag {
+    color: var(--gold-soft); font-size: .8rem;
+    letter-spacing: .16em; text-transform: uppercase;
+    margin: 0 0 10px;
+  }
+  .book-copy h3 {
+    font-family: var(--serif); font-weight: 500;
+    font-size: clamp(1.55rem, 3vw, 2.05rem); margin: 0 0 6px;
+  }
+  .book-copy .subtitle {
+    font-family: var(--serif); font-style: italic; color: var(--gold);
+    font-size: 1.02rem; margin: 0 0 20px;
+  }
+  .book-copy p.desc { color: var(--ink-dim); max-width: 52ch; margin: 0 0 26px; }
+  .book-topics { list-style: none; padding: 0; margin: 0 0 30px; display: grid; gap: 10px; }
+  .book-topics li { color: var(--ink-dim); font-size: .94rem; padding-left: 18px; position: relative; }
+  .book-topics li::before { content: "\2014"; position: absolute; left: 0; color: var(--gold-soft); }
+  .book-actions { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+  .book-actions .note { color: var(--ink-dim); font-size: .84rem; margin: 0; }
+
+  /* CONTATO */
+  .closing .wrap {
+    border-top: 1px solid var(--line); padding-top: 60px;
+    display: grid; gap: 26px;
+  }
+  @media (min-width: 780px) { .closing .wrap { grid-template-columns: 1fr auto; align-items: end; } }
+  .closing h2 { font-family: var(--serif); font-weight: 500; font-size: clamp(1.6rem, 3vw, 2.1rem); margin: 0 0 12px; max-width: 20ch; }
+  .closing p { color: var(--ink-dim); margin: 0; max-width: 44ch; }
+
+  footer {
+    padding: 40px 0 calc(40px + env(safe-area-inset-bottom, 0px));
+    border-top: 1px solid var(--line);
+  }
+  footer .wrap { display: flex; flex-direction: column; gap: 14px; }
+  @media (min-width: 640px) { footer .wrap { flex-direction: row; justify-content: space-between; align-items: center; } }
+  .fbrand { font-family: var(--serif); font-style: italic; color: var(--ink-dim); font-size: .95rem; }
+  .flinks { display: flex; gap: 22px; font-size: .86rem; }
+  .flinks a { text-decoration: none; color: var(--ink-dim); }
+  .flinks a:hover { color: var(--gold); }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+  }
+
+  @media print {
+    :root, :root[data-theme="light"], :root[data-theme="dark"] {
+      --bg: #fff; --ink: #000; --ink-dim: #333; --gold: #000; --gold-soft: #333;
+      --on-gold: #000; --line: #ccc; --nav-bg: #fff; color-scheme: light;
+    }
+    .site-nav, .cta-row, .book-actions, .flinks, .rule, .js-only, .skip, .hero-photo, .about-portrait { display: none !important; }
+    section { padding: 16px 0; }
+    .book, .closing .wrap { break-inside: avoid; }
+    a[href^="http"]::after, a[href^="mailto"]::after { content: " (" attr(href) ")"; font-size: .78em; color: #555; }
+  }
+</style>
+</head>
+<body>
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header>
+  <nav class="site-nav" id="siteNav" aria-label="Principal">
+    <div class="wrap nav-row">
+      <a href="#topo" class="brand">Marcelo Carvalho</a>
+      <div class="nav-right">
+        <button class="theme-toggle js-only" type="button" data-theme-toggle aria-pressed="false" aria-label="Mudar para tema claro">
+          <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2"/>
+            <path d="M12 2.6v2.4M12 19v2.4M2.6 12h2.4M19 12h2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M18.8 5.2l-1.7 1.7M6.9 17.1l-1.7 1.7"/>
+          </svg>
+          <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.8 8.8 0 1 0 10.8 10.8Z"/>
+          </svg>
+        </button>
+      </div>
+      <ul class="navlinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#livros">Livros</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+  <section class="hero" id="topo" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="hero-text">
+        <p class="kicker">Livros sobre o que permanece quando o ruído cessa</p>
+        <h1 id="hero-title">Marcelo Carvalho</h1>
+        <p>Escrevo sobre o vazio que a distração não preenche e sobre os pensamentos que decidem, sem que a gente perceba, o formato da própria vida. Dois livros, uma mesma pergunta: o que sobra de você quando as telas se apagam.</p>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="#livros">Ver os livros</a>
+          <a class="btn btn-line" href="#sobre">Sobre o autor</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="imagens/author.jpg" width="700" height="1050" fetchpriority="high" decoding="async" alt="Retrato do autor Marcelo Carvalho em uma biblioteca">
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section class="about" id="sobre" aria-labelledby="sobre-title">
+    <div class="wrap">
+      <div class="about-portrait">
+        <img src="imagens/about.jpg" width="700" height="1050" loading="lazy" decoding="async" alt="Marcelo Carvalho">
+      </div>
+      <div class="about-copy">
+        <h2 class="section-title" id="sobre-title">Sobre o autor</h2>
+        <p>Marcelo Carvalho escreve para quem já sentiu que algo continua faltando mesmo depois que todas as notificações foram respondidas. Seus livros nascem de uma observação simples e incômoda: vivemos cercados de estímulo e cada vez mais distantes de nós mesmos.</p>
+        <p><strong>O Limite do Invisível</strong> e <strong>A Batalha da Mente</strong> não pedem que o leitor abandone a tecnologia — pedem que ele volte a perguntar o que, afinal, está procurando.</p>
+        <p>Este espaço reúne seus dois livros publicados, com os links para a Amazon nas versões digital e impressa.</p>
+        <p class="signature">— Marcelo</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="livros" aria-labelledby="livros-title">
+    <div class="wrap">
+      <h2 class="section-title" id="livros-title">Livros</h2>
+      <p class="section-lede">Dois volumes, uma mesma investigação — o primeiro sobre o vazio que a tela não preenche, o segundo sobre a mente que decide o resto.</p>
+
+      <article class="book" aria-labelledby="livro1">
+        <div class="book-cover">
+          <img src="imagens/book1.svg" width="600" height="900" loading="lazy" decoding="async" alt="Capa do livro O Limite do Invisível">
+        </div>
+        <div class="book-copy">
+          <p class="tag">Livro I</p>
+          <h3 id="livro1">O Limite do Invisível</h3>
+          <p class="subtitle">Nada neste mundo consegue te completar</p>
+          <p class="desc">Este não é um livro sobre desistir da tecnologia. É um livro sobre descobrir que existe algo — alguém — que preenche o vazio que você não sabia que tinha.</p>
+          <ul class="book-topics">
+            <li>Por que a tecnologia e as distrações digitais mexem tão profundamente com você</li>
+            <li>O vazio que nenhuma tela consegue preencher</li>
+            <li>Como você chegou tão longe sem saber o que está procurando</li>
+            <li>A verdade que existe além do visível</li>
+          </ul>
+          <div class="book-actions">
+            <a class="btn btn-solid" href="https://www.amazon.com.br/dp/B0H6J756DR" target="_blank" rel="noopener">Comprar na Amazon</a>
+            <p class="note">Digital e impresso</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="book reverse" aria-labelledby="livro2">
+        <div class="book-cover">
+          <img src="imagens/book2.svg" width="600" height="900" loading="lazy" decoding="async" alt="Capa do livro A Batalha da Mente">
+        </div>
+        <div class="book-copy">
+          <p class="tag">Livro II</p>
+          <h3 id="livro2">A Batalha da Mente</h3>
+          <p class="subtitle">Como seus pensamentos moldam sua realidade — e como assumir o controle</p>
+          <p class="desc">O maior campo de batalha da sua vida está dentro da sua mente. Um livro sobre trocar ansiedade por clareza, ciclos destrutivos por foco, e reação por decisão.</p>
+          <ul class="book-topics">
+            <li>A ciência por trás dos seus pensamentos automáticos</li>
+            <li>Estratégias práticas para recuperar o controle mental</li>
+            <li>Equilíbrio emocional em meio à sobrecarga do dia a dia</li>
+            <li>O caminho da clareza até decisões melhores</li>
+          </ul>
+          <div class="book-actions">
+            <a class="btn btn-solid" href="https://www.amazon.com.br/dp/B0H57P7MCH" target="_blank" rel="noopener">Comprar na Amazon</a>
+            <p class="note">Digital e impresso</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section class="closing" id="contato" aria-labelledby="contato-title">
+    <div class="wrap">
+      <div>
+        <h2 id="contato-title">Leu e quer conversar sobre o livro?</h2>
+        <p>Mensagens de leitores, convites para entrevistas e parcerias são bem-vindos por e-mail.</p>
+      </div>
+      <a class="btn btn-line" href="mailto:contato@marcelocarvalho.com.br?subject=Contato%20pelo%20site">contato@marcelocarvalho.com.br</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="fbrand">Marcelo Carvalho, autor</span>
+    <nav class="flinks" aria-label="Rodapé">
+      <a href="#topo">Início</a>
+      <a href="#livros">Livros</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var nav = document.getElementById('siteNav');
+  var metaTheme = document.getElementById('metaThemeColor');
+
+  function measureNav() {
+    root.style.setProperty('--nav-h', nav.offsetHeight + 'px');
+  }
+  measureNav();
+  if (window.ResizeObserver) { new ResizeObserver(measureNav).observe(nav); }
+  else { window.addEventListener('resize', measureNav); }
+
+  function onScroll() {
+    nav.classList.toggle('is-stuck', window.pageYOffset > 8);
+  }
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  var toggle = document.querySelector('[data-theme-toggle]');
+  if (toggle) {
+    function applyTheme(theme) {
+      root.setAttribute('data-theme', theme);
+      toggle.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
+      toggle.setAttribute('aria-label', theme === 'dark' ? 'Mudar para tema claro' : 'Mudar para tema escuro');
+      if (metaTheme) { metaTheme.setAttribute('content', theme === 'dark' ? '#16130F' : '#F7F3EA'); }
+    }
+    applyTheme(root.getAttribute('data-theme') || 'dark');
+    toggle.addEventListener('click', function () {
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      try { localStorage.setItem('tema', next); } catch (e) {}
+      applyTheme(next);
+    });
+  }
+})();
+</script>
+
+</body>
+</html>

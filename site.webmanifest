@@ -1,0 +1,14 @@
+{
+  "name": "Marcelo Carvalho — Autor",
+  "short_name": "Marcelo Carvalho",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#16130F",
+  "theme_color": "#16130F",
+  "icons": [
+    { "src": "imagens/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "imagens/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
